@@ -1,0 +1,8 @@
+[16,21,11,8,12,22] -> Merge Sort
+1.adım 3'erli gruplara ayrılır [16,21,11] ve [8,12,22]
+2.adım bu gruplar da kendi içinde ayrılır [16,21] [11] [8,12] [22]
+3.adım son haline gelir [16] [21] [11] [8] [12] [22]
+4.adım aralarında sıralama işlemi yapılır [16 21] [11] [8 12] [22]
+5.adım devam edilir                      [11 16 21] [8 12 22]
+6.adım son halini alır [8 11 12 16 21 22]
+O(LOG(n))
